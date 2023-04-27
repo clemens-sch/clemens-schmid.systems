@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/profile.png" type="image/png">
+    <title>games.clemens-schmid.systems</title>
+	<style>
+    body {
+        background-color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        color: #333;
+        padding-top: 100px;
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin: 20px 0 30px;
+        color: #333;
+    }
+
+    a {
+        color: #db1933;
+        text-decoration: none;
+        border-bottom: 2px solid #db1933;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    a:hover {
+        border-color: #333;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .links a:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .email_class{
+            color: #db1933;
+        }
+
+    iframe {
+        border: 20px solid #111;
+        width: 1000px;
+        height: 604px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    @media only screen and (max-width: 768px) {
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 20px 20px 30px;
+        }
+
+        .links {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .links a:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 90%;
+            height: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+	<h1><span class="email_class">MEINE</span> SPIELE</h1>
+	<p>[momentan nur auf 1920x1080 spielbar]</p>
+	<br></br>
+
+
+    <iframe id="myiframe" src="https://games.clemens-schmid.systems/TroubleShooter/index.html" 
+       	width="1000" 
+       	frameborder="0">
+	</iframe>    
+	<br></br>    
+
+	<div class="links">
+		<a href="http://clemens-schmid.systems/">clemens-schmid.systems</a>
+        <p></p>
+		<a href="http://blog.clemens-schmid.systems/">blog.clemens-schmid.systems</a>
+	</div>
+
+    <script>
+        var iframe = document.getElementById("myiframe");
+        var height = iframe.contentWindow.document.body.scrollHeight;
+        iframe.style.height = height + "px";
+    </script>
+
+</body>
+</html>
