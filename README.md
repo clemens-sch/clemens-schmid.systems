@@ -1,9 +1,12 @@
+HTML, CSS, JS Code of my portfolio website
+- and some more of my websites
+
 ### Portfolio-Website
-  www.clemens-schmid.systems
-  clemens-schmid.systems
+  https://www.clemens-schmid.systems
+  https://clemens-schmid.systems
  
 ### Blog-Website
-  blog.clemens-schmid.systems
+  https://blog.clemens-schmid.systems
   
 ### Games-Website
-  games.clemens-schmid.systems
+  https://games.clemens-schmid.systems
